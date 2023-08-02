@@ -3,4 +3,4 @@ Steps to reproduce:
 2. Close the VI, then reopen it.
     - Note the tree label is now in Chinese characters
 3. On the block diagram zoom to 150% (ctrl + 8 mouse-wheel clicks up)
-    - All label text becomes Chinese. Interestingly the UTF-16BE encoded text in the string array is rendered as unicode.
+    - All label text becomes Chinese. Interestingly the UTF-16LE encoded text in the string array is rendered as unicode.
